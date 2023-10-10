@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel Page</title>
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="topPage">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand">Carousel</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a href="#" class="nav-link active" aria-current="page">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Link</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#"
+                  class="nav-link disabled"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Disabled</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                type="search"
+                class="form-control me-2"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Carousel Section-->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active bg-img1">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Example headline.</h1>
+              <p>
+                Some representative placeholder content for the first slide of
+                the carousel.
+              </p>
+              <p>
+                <a href="#" class="btn btn-lg btn-primary">Sign up today</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item bg-img2">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>
+                Some representative placeholder content for the second slide of
+                the carousel.
+              </p>
+              <p>
+                <a href="#" class="btn btn-lg btn-primary">Learn more</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="carousel-item bg-img3">
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>One more for good measure.</h1>
+              <p>
+                Some representative placeholder content for the third slide of
+                the carousel.
+              </p>
+              <p>
+                <a href="#" class="btn btn-lg btn-primary">Browse gallery</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Carousel Indicator -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-label="Slide 1"
+          aria-current="true"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+          class=""
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+          class=""
+        ></button>
+      </div>
+      <!-- Carousel next, prev buttons -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta tempora aut
+      nesciunt illum ea. Veniam, repellat. Debitis non maiores nesciunt
+      veritatis molestias officiis, quas expedita, aut quibusdam excepturi
+      consequatur asperiores doloribus a. Maxime officia esse repellat eius
+      iusto nam deleniti a neque itaque excepturi animi voluptatem illum iure
+      doloribus et odit quis sequi magni assumenda, officiis mollitia, magnam
+      cum! Harum rerum ducimus velit. Debitis nisi nobis sed consequatur
+      quisquam dolorem maiores aut nihil hic corrupti sunt, in iusto itaque ad
+      recusandae voluptates facilis dignissimos magnam quae nemo esse. Amet
+      totam numquam reprehenderit aperiam iusto quo eum similique nihil.
+      Voluptatem ipsa error, quasi nemo impedit consequatur laboriosam
+      dignissimos, cumque nesciunt eaque vitae aliquid ad, beatae accusantium
+      reiciendis! Repellat ratione, harum obcaecati eligendi rerum
+      necessitatibus cum maiores perspiciatis? Nam ducimus ea maiores, facere ab
+      soluta minima voluptatibus cum magnam, velit, reiciendis temporibus nulla
+      veritatis consequatur ratione earum vitae inventore nihil? Perspiciatis
+      modi quo corporis, ipsam nobis beatae praesentium recusandae ullam odio
+      placeat necessitatibus aperiam, atque nostrum officia voluptas porro,
+      veniam eius ducimus quaerat blanditiis dignissimos voluptates! Rerum
+      voluptatem provident delectus fugit mollitia ratione quibusdam voluptas
+      eius, laboriosam qui ipsa veniam dolore at nihil est ducimus
+      exercitationem sint vel neque veritatis numquam minus illum. Ipsa quas
+      placeat suscipit voluptatum neque. Aliquam labore itaque illo, enim nisi
+      quasi architecto earum dolorum ipsa quo dignissimos odit dolore quia
+      numquam. Et cumque consequatur nam quod placeat obcaecati in dicta
+      delectus cum ipsam eligendi vel optio veniam commodi fugiat esse qui culpa
+      nulla, quae, ullam incidunt facilis! Soluta voluptatem saepe excepturi
+      quasi deserunt illum. Consectetur delectus laborum illum, modi
+      repudiandae, suscipit ratione ut pariatur amet minima quod quasi dolorum
+      illo impedit totam harum minus, ex accusantium? Dolores, consequuntur.
+      Explicabo necessitatibus accusamus ipsa aliquid optio dicta nam incidunt
+      odit molestiae excepturi exercitationem maiores enim doloribus odio facere
+      deleniti, labore natus corrupti. Ullam, odio eos saepe delectus odit
+      consectetur asperiores rem cumque enim voluptatem obcaecati reprehenderit
+      commodi maiores hic. Id aliquid, veniam minus veritatis dolorem vero
+      adipisci. Quod eveniet esse dolorum repellat vel quas magnam et,
+      asperiores sequi in dignissimos. Explicabo aut saepe deserunt! Doloribus
+      deserunt asperiores omnis voluptatibus accusamus eligendi vitae ab ipsa!
+      Commodi inventore voluptatum rerum, ex et excepturi provident debitis quae
+      consectetur fuga. Nisi expedita eligendi deserunt vero assumenda
+      voluptatibus eaque dolorem! Amet tempore non impedit quae praesentium
+      dolorum consectetur, explicabo labore optio vel sapiente molestias
+      voluptas accusamus neque possimus odit suscipit repudiandae eum
+      consequatur pariatur. Quam explicabo iure atque eligendi a inventore
+      cumque facere non at quidem, hic eos eius quae doloribus sapiente esse
+      distinctio. Similique facere animi maxime ipsum ducimus ullam cumque cum
+      dolor modi vero quaerat assumenda aspernatur a nostrum placeat harum, in
+      sit? Temporibus earum vero repellendus accusantium veritatis dolorem
+      architecto iste tempora labore molestias illo, ad hic beatae ipsum, nisi
+      quos cupiditate error laudantium enim neque aliquid at quis quisquam.
+      Maxime beatae ex minima earum cum, quis aliquam exercitationem sint
+      quisquam temporibus at? Eveniet totam fugit suscipit iure sit, cupiditate
+      neque quaerat maiores exercitationem, non laborum quibusdam temporibus in
+      cumque? Tempora?
+    </div> -->
+
+    <!-- Footer -->
+    <footer class="d-flex justify-content-around fixed-bottom">
+      <!-- Copyright -->
+      <div class="copyright">
+        <p class="">
+          © 2017 - 2021 Company, Inc.
+          <span>&middot;</span>
+          <a href="#" class=""> Privacy</a>
+          <span>&middot;</span>
+          <a href="#" class="">Terms</a>
+        </p>
+      </div>
+      <!-- Back to top button -->
+      <div>
+        <a href="#topPage">Back to top</a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

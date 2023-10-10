@@ -1,0 +1,26 @@
+.bg-img1 {
+  height: 70vh; /* A specified height must be set for the image to appear */
+  background-color: #000; /* Used if the image is unavailable */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-image: url("images/bg1.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.bg-img2 {
+  height: 70vh;
+  background-color: #000;
+  background-size: cover;
+  background-image: url("images/bg2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-img3 {
+  height: 70vh;
+  background-color: #000;
+  background-size: cover;
+  background-image: url("images/bg3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
